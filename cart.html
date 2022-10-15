@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="index.html" class="logo">TheBeautyPlace</a>
+      </div>
+
+      <div class="shopping-cart">
+        <svg>
+          <use xlink:href="img/logo.svg#icon-shopping-cart"></use>
+        </svg>
+        <h3 class="cart-amount">0</h3>
+      </div>
+    </nav>
+
+    <div id="label" class="text-center"></div>
+    <div id="shopping-cart" class="main-cart"></div>
+
+    <div class="checkout-alert hidden">
+      <p>Your order has been successfully placed.</p>
+      <p>Products will be delivered to your location in 7 days time.</p>
+      <button class="ok">OK</button>
+    </div>
+    <div class="clearcart-alert hidden">
+      <p>Are you sure you want to clear your cart?</p>
+      <button class="clear-main">Clear Cart</button>
+      <button class="cancel-main">Cancel</button>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+
+  <script src="src/data.js"></script>
+  <script src="src/cart.js"></script>
+</html>

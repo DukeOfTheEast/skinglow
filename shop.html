@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="shop-nav">
+        <div>
+          <a href="index.html" class="logo">TheBeautyPlace</a>
+        </div>
+
+        <div class="shopping-cart">
+          <a href="cart.html">
+            <svg>
+              <use xlink:href="img/logo.svg#icon-shopping-cart"></use>
+            </svg>
+          </a>
+
+          <h3 class="cart-amount">0</h3>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="shop-cards">
+        <div class="shop-card">
+          <img src="img/cart-cream1.jpg" alt="" />
+          <h1 class="item-name">Cuddle Care</h1>
+          <p class="item-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nobis
+            laudantium asperiores ea blanditiis aliquam.
+          </p>
+          <div class="pricing">
+            <h3>$70</h3>
+            <div class="switch">
+              <h2 class="minus">-</h2>
+              <h2 class="item-count">0</h2>
+              <h2 class="plus">+</h2>
+            </div>
+          </div>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="src/data.js"></script>
+  <script src="src/shop.js"></script>
+</html>

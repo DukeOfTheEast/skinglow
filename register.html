@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>SKIN-GLOW REGISTER</title>
+  </head>
+  <body>
+    <nav>
+      <!-- <div>
+        <a href="index.html" class="logo">TheBeautyPlace</a>
+      </div> -->
+
+      <div class="cancel-reg">
+        <a href="index.html">
+          <svg>
+            <use xlink:href="img/logo.svg#icon-x"></use>
+          </svg>
+        </a>
+      </div>
+    </nav>
+
+    <div class="register">
+      <button class="facebook">
+        <svg>
+          <use xlink:href="img/logo.svg#icon-facebook"></use>
+        </svg>
+        Register with Facebook
+      </button>
+
+      <div class="or">
+        <span class="or-line"></span>
+        <p>OR</p>
+        <span class="or-line"></span>
+      </div>
+
+      <form class="form">
+        <div class="reg1">
+          <input type="email" placeholder="Email" class="signup-email" />
+          <p class="error1 hidden">Email cannot be blank</p>
+          <p class="error2 hidden">Input a valid email</p>
+        </div>
+
+        <div class="reg2">
+          <input
+            type="password"
+            placeholder="Password"
+            class="signup-password"
+          />
+          <p class="error3 hidden">This field cannot be empty</p>
+        </div>
+
+        <div class="reg3">
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            class="signup-confirm"
+          />
+          <p class="error4 hidden">This field cannot be empty</p>
+        </div>
+      </form>
+
+      <p class="xter">
+        Password must contain at least 8 characters including 1 uppercase
+        letter, 1 lowercase letter, 1 number and 1 special character
+      </p>
+
+      <button type="submit" class="signup">Sign up</button>
+
+      <p>Already have an account? <a href="#" class="login">Login</a></p>
+    </div>
+
+    <script src="src/register.js"></script>
+  </body>
+</html>
