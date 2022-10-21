@@ -36,8 +36,3 @@ signup.addEventListener("click", (e) => {
     error4.classList.add("hidden");
   }
 });
-
-if (signupEmail.hasFocus()) {
-  error1.classList.add("hidden");
-  error2.classList.add("hidden");
-}
