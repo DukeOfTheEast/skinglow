@@ -18,7 +18,7 @@ signup.addEventListener("click", (e) => {
     error1.classList.remove("hidden");
   } else if (!emailValue.includes("@")) {
     error2.classList.remove("hidden");
-  } else {
+  } else if(signupEmail.hasFocus()) {
     error1.classList.add("hidden");
     error2.classList.add("hidden");
   }
