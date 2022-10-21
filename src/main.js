@@ -86,7 +86,7 @@ const slider = function () {
 slider();
 
 // Scroll
-const sect1 = document.querySelector("section1");
+const sect1 = document.querySelector(".section1");
 const btnScrollTo = document.querySelector(".arrow-up");
 
 btnScrollTo.addEventListener("click", function (e) {
