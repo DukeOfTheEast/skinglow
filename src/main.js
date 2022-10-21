@@ -86,11 +86,11 @@ const slider = function () {
 slider();
 
 // Scroll
-const header = document.querySelector("header");
+const sect1 = document.querySelector("section1");
 const btnScrollTo = document.querySelector(".arrow-up");
 
 btnScrollTo.addEventListener("click", function (e) {
-  header.scrollIntoView({ behavior: "smooth" });
+  sect1.scrollIntoView({ behavior: "smooth" });
 });
 
 // HAMBURGER
