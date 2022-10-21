@@ -36,3 +36,13 @@ signup.addEventListener("click", (e) => {
     error4.classList.add("hidden");
   }
 });
+
+const registerInput = document.querySelectorAll('.register-input')
+registerInput.forEach((x) => {
+  x.addEventListener('click', function() {
+    error1.classList.add("hidden");
+    error2.classList.add("hidden");
+    error3.classList.add("hidden");
+    error4.classList.add("hidden");
+  })
+})
